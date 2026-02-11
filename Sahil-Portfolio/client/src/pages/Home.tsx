@@ -19,12 +19,14 @@ export default function Home() {
     return acc;
   }, {} as Record<string, typeof skills>);
 
-  const categories = [
-    "Programming",
-    "Web Development",
-    "Data Engineering",
-    "Tools & Platforms"
-  ];
+const categories = [
+  "Programming",
+  "Web Development",
+  "Data Engineering",
+  "ML & Tools",
+  "Core CS"
+];
+
 
   if (projectsLoading || skillsLoading || experienceLoading) {
     return (
@@ -183,7 +185,8 @@ export default function Home() {
               I'm actively looking for Software Development Engineer and Data Engineering roles.
             </p>
             <a
-              href="mailto:sahil@example.com"
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=sahi950812@gmail.com"
+              target="_blank"
               className="inline-flex items-center justify-center px-8 py-4 text-lg font-bold rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 hover:scale-105 transition-all duration-300 shadow-lg shadow-primary/25"
             >
               Get in Touch

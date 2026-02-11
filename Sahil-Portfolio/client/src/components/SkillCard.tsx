@@ -13,6 +13,8 @@ const icons: Record<string, React.ReactNode> = {
   "Web Development": <Layout className="w-6 h-6 text-purple-400" />,
   "Data Engineering": <Database className="w-6 h-6 text-emerald-400" />,
   "Tools & Platforms": <Wrench className="w-6 h-6 text-orange-400" />,
+  "ML & Tools": <Wrench className="w-6 h-6 text-orange-400" />,
+  "Core CS": <Terminal className="w-6 h-6 text-primary" />,
 };
 
 export function SkillCard({ category, skills, delay }: SkillCardProps) {

@@ -4,7 +4,7 @@ export const projects = [
     title: "High Performance Payment Processing Engine (C++)",
     description:
       "Designed and implemented a low-latency payment processing engine in C++ handling transaction validation, routing, and secure memory operations with focus on performance and reliability.",
-    tech: ["C++", "OOP", "Data Structures", "System Design"],
+    techStack: ["C++", "OOP", "Data Structures", "System Design"],
     codeLink: "https://github.com/git149hub/payment-processing-engine-cpp",
     
   },
@@ -13,7 +13,7 @@ export const projects = [
     title: "AI-powered YouTube Thumbnail Generator",
     description:
       "Automates creation of high-CTR YouTube thumbnails using AI-driven prompt generation and Stable Diffusion image models.",
-    tech: ["JavaScript", "Node.js", "Express", "React", "AI APIs"],
+    techStack: ["JavaScript", "Node.js", "Express", "React", "AI APIs"],
     codeLink: "https://github.com/git149hub/Thumbnail-Generater",
     liveLink: "https://thumbnail-frontend.onrender.com/",
   },
@@ -22,7 +22,7 @@ export const projects = [
     title: "Spam Detection Web App",
     description:
       "A machine learning based email classifier that detects spam vs ham with high accuracy, trained using NLP and Python ML libraries.",
-    tech: ["Python", "FastAPI", "Scikit-learn", "Pandas", "NumPy"],
+    techStack: ["Python", "FastAPI", "Scikit-learn", "Pandas", "NumPy"],
     codeLink: "https://github.com/git149hub/Spam_dectetor",
     liveLink: "https://spam-predictor-yp83.onrender.com/",
   },
@@ -31,8 +31,8 @@ export const projects = [
     title: "CanvasSpark",
     description:
       "Frontend web application for creating graphic designs and visual content using interactive tools and templates.",
-    tech: ["JavaScript", "HTML", "CSS"],
-    codeLink: "",
+    techStack: ["JavaScript", "HTML", "CSS"],
+    codeLink: "https://github.com/git149hub/Canvas_Sparks",
     liveLink: "https://canvasspark.netlify.app/",
   },
 ];

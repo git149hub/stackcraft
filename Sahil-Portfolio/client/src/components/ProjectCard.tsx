@@ -58,9 +58,9 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
           </div>
 
           <div className="flex items-center gap-3">
-            {project.githubUrl && (
+            {project.codeLink && (
               <a
-                href={project.githubUrl}
+                href={project.codeLink}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex-1 flex items-center justify-center gap-2 py-2.5 rounded-lg bg-secondary hover:bg-secondary/80 text-sm font-medium transition-colors"
@@ -69,9 +69,9 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
                 Code
               </a>
             )}
-            {project.demoUrl && (
+            {project.liveLink  && (
               <a
-                href={project.demoUrl}
+                href={project.liveLink }
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex-1 flex items-center justify-center gap-2 py-2.5 rounded-lg bg-primary hover:bg-primary/90 text-primary-foreground text-sm font-medium transition-colors"
