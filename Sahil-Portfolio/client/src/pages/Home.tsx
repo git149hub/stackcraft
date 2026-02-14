@@ -99,11 +99,12 @@ const categories = [
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="relative hidden lg:block"
+              //className="relative hidden lg:block"
+              className="relative w-full"
             >
               <div className="relative w-full aspect-square max-w-lg mx-auto">
                 <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 to-purple-500/20 rounded-full blur-3xl" />
-                <div className="relative z-10 grid grid-cols-2 gap-6">
+                <div className="relative z-5 grid grid-cols-2 gap-6">
                   <FeatureCard icon={<Server className="w-8 h-8 text-primary" />} title="Backend Systems" />
                   <FeatureCard icon={<Database className="w-8 h-8 text-emerald-400" />} title="Data Pipelines" className="mt-12" />
                   <FeatureCard icon={<Code2 className="w-8 h-8 text-purple-400" />} title="Clean Code" />
