@@ -75,28 +75,36 @@ Designed with a clean dark UI, smooth interactions, and a strong focus on real-w
 ### 🔹 High Performance Payment Processing Engine (C++)
 Low-latency transaction handling system focused on speed, reliability, and system design.
 
-**Tech:** C++, OOP, Data Structures, System Design
+✔ Role: Backend Engineer
+✔ Focus: Performance optimization, transaction routing, system architecture
+**Tech:** C++ | Data Structures | OOP | System Design
 
 ---
 
-### 🔹 AI-Powered YouTube Thumbnail Generator
-Automates creation of high-CTR YouTube thumbnails using AI prompt generation and image models.
+### 🔹 AI-Powered YouTube Thumbnail Generator  
+Automates thumbnail creation using AI prompt generation + image models — improved CTR potential by intelligent design.
 
-**Tech:** JavaScript, Node.js, Express, React, AI APIs
+✔ **Role:** Full Stack Developer  
+✔ **Focus:** AI integration, backend API, React UI  
+**Tech:** JavaScript | Node.js | Express | React
 
 ---
 
 ### 🔹 Spam Detection Web App
 Machine learning based email classifier that detects spam vs ham with high accuracy.
 
-**Tech:** Python, FastAPI, Scikit-learn, Pandas
+✔ Role: ML Engineer & Backend Developer
+✔ Focus: Model training, API deployment, real-time predictions
+**Tech:**  Python | FastAPI | Scikit-learn | Pandas
 
 ---
 
 ### 🔹 CanvasSpark
 Frontend web application for creating visual content using interactive tools.
 
-**Tech:** JavaScript, HTML, CSS
+✔ Role: Frontend Developer
+✔ Focus: UI design, interactivity, responsive layouts
+**Tech:** JavaScript | HTML | CSS
 
 ---
 
@@ -116,3 +124,8 @@ git clone https://github.com/git149hub/stackcraft.git
 cd stackcraft
 npm install
 npm start
+
+---
+
+✨ Built with ❤️ using React & TailwindCSS  
+
