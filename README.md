@@ -127,5 +127,5 @@ npm start
 
 ---
 
-✨ Built with ❤️ using React & TailwindCSS  
+✨ Built with ❤️ using React, TypeScript & Tailwind 
 
