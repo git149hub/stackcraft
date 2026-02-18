@@ -14,7 +14,7 @@ export function Footer() {
           
           <div className="flex md:justify-end gap-4">
             <SocialLink href="https://github.com/git149hub"  icon={<Github className="w-5 h-5" />} label="GitHub" />
-            <SocialLink href="www.linkedin.com/in/sahil-6481952b8"  icon={<Linkedin className="w-5 h-5" />} label="LinkedIn" />
+            <SocialLink href="https://www.linkedin.com/in/sahil-6481952b8/"  icon={<Linkedin className="w-5 h-5" />} label="LinkedIn" />
             <SocialLink href="mailto:sahi950812@gmail.com" icon={<Mail className="w-5 h-5" />} label="Email" />
           </div>
         </div>
