@@ -24,7 +24,7 @@ export function Footer() {
             © {new Date().getFullYear()} Sahil. All rights reserved.
           </p>
           <p className="text-sm text-muted-foreground flex items-center gap-1">
-            Built with <Heart className="w-3 h-3 text-red-500 fill-red-500" /> using React & Tailwind
+            Built with <Heart className="w-3 h-3 text-red-500 fill-red-500" /> using React, TypeScript & Tailwind
           </p>
         </div>
       </div>
