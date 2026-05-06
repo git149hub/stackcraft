@@ -33,7 +33,7 @@ const categories = [
       <div className="min-h-screen bg-background flex items-center justify-center">
         <div className="flex flex-col items-center gap-4">
           <div className="w-12 h-12 border-4 border-primary border-t-transparent rounded-full animate-spin" />
-          <p className="text-muted-foreground font-mono animate-pulse">Initializing System...</p>
+          <p className="text-muted-foreground font-mono animate-pulse">Loading Portfolio...</p>
         </div>
       </div>
     );
@@ -70,7 +70,7 @@ const categories = [
               </h1>
               
               <h2 className="text-2xl lg:text-3xl text-muted-foreground font-light mb-8">
-                Aspiring SDE & <br className="hidden lg:block" />
+                SDE | AI/ML Systems & <br className="hidden lg:block" />
                 Data Engineer
               </h2>
               
@@ -105,10 +105,10 @@ const categories = [
               <div className="relative w-full aspect-square max-w-lg mx-auto">
                 <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 to-purple-500/20 rounded-full blur-3xl" />
                 <div className="relative z-5 grid grid-cols-2 gap-6">
-                  <FeatureCard icon={<Server className="w-8 h-8 text-primary" />} title="Backend Systems" />
-                  <FeatureCard icon={<Database className="w-8 h-8 text-emerald-400" />} title="Data Pipelines" className="mt-12" />
-                  <FeatureCard icon={<Code2 className="w-8 h-8 text-purple-400" />} title="Clean Code" />
-                  <FeatureCard icon={<Layout className="w-8 h-8 text-orange-400" />} title="Scalable Apps" className="mt-12" />
+                  <FeatureCard icon={<Server className="w-8 h-8 text-primary" />} title="Software Engineering" />
+                  <FeatureCard icon={<Database className="w-8 h-8 text-emerald-400" />} title="AI & Data Systems" className="mt-12" />
+                  <FeatureCard icon={<Code2 className="w-8 h-8 text-purple-400" />} title="Algorithmic Thinking" />
+                  <FeatureCard icon={<Layout className="w-8 h-8 text-orange-400" />} title="System Design" className="mt-12" />
                 </div>
               </div>
             </motion.div>
@@ -183,7 +183,7 @@ const categories = [
           >
             <h2 className="text-4xl font-bold mb-6">Ready to Collaborate?</h2>
             <p className="text-xl text-muted-foreground mb-8">
-              I'm actively looking for Software Development Engineer and Data Engineering roles.
+              I'm actively looking for SDE, Backend Development, AI/ML Systems, and Data Engineering opportunities.
             </p>
             <a
               href="mailto:sahi950812@gmail.com"
