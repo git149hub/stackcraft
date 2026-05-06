@@ -41,6 +41,7 @@ export const projects = [
   {
     id: 1,
     title: "AI-Powered Crop Yield Prediction System",
+    imageUrl: "/images/CropAI.png",
     description:
       "Built a full-stack machine learning platform for crop yield prediction using agricultural and environmental data. Developed scalable FastAPI backend services, ML model integration, analytics dashboards, prediction history tracking, and real-time insights for data-driven decision making.",
     techStack: [
@@ -59,6 +60,7 @@ export const projects = [
   {
     id: 2,
     title: "Spam Detection Web App",
+    imageUrl: "/images/SpamDetect System.png",
     description:
       "Developed a machine learning powered email classification system using NLP and Scikit-learn to accurately detect spam vs ham emails with FastAPI backend integration and interactive prediction interface.",
     techStack: [
@@ -76,6 +78,7 @@ export const projects = [
   {
     id: 3,
     title: "AI-Powered YouTube Thumbnail Generator",
+    imageUrl: "/images/Thumbgen AI.png",
     description:
       "Built an AI-driven thumbnail generation platform that automates creation of high-CTR YouTube thumbnails using prompt engineering, image generation APIs, and full-stack application architecture.",
     techStack: [
@@ -93,6 +96,7 @@ export const projects = [
   {
     id: 4,
     title: "High Performance Payment Processing Engine",
+    imageUrl: "/images/Payment System.png",
     description:
       "Designed and implemented a low-latency payment processing engine in C++ handling transaction validation, routing, memory optimization, and reliable backend processing with focus on performance and system design principles.",
     techStack: [
